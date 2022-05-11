@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+/*font-family: 'Poppins', sans-serif;*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color);
+}
+
+p{
+    color: var(--dark-color);
+    text-align: justify;
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::  HEADER :::::::::::::::::::::::::::::::::::::::::::::::: */
+@media screen and (min-width: 320px) {
+    
+.telefono{
+    grid-area: item1;
+      
+}
+.ubicacion{
+    grid-area: item2;
+    
+}
+.grid-item3{
+    display: flex;
+    grid-area: item3;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+
+.grid-item5{
+    grid-area: item5;
+    
+}
+.grid-item6{
+    grid-area: item6;
+    
+}
+
+
+.btn-login{
+    
+    display: none;
+}
+.btn-login i{
+    padding: 1px 5px;
+}
+
+.btn-login a{
+    margin:20px 0;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn-login:hover{
+    box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.61), 0 5px 5px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.icono{
+    display: flex;
+    flex-direction: row;
+    padding: 0.1rem 0.6rem 1rem 3rem;
+}
+
+.logoForja{
+    padding-left: 10px;
+    padding-right: 1rem;
+    max-height: 40vw;
+    height: 100%;
+}
+
+.lineaElectro{
+    width: 80%;
+    padding-left: 100px;
+}
+
+
+
+
+.fa-icon{
+    color: rgb(220, 118, 51 );
+    font-size: 50px;
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::  BANNER :::::::::::::::::::::::::::::::::::::::::::::::: */
+.seccion{
+    background-image: url(../imagenes/medico.png);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height:180px;
+    padding: 1rem 1rem 1rem 1rem;
+    
+}
+.logo-index211, .logo-index212 button{
+    font-size: 12px;
+}
+.seccion1 h2{
+    font-size:2vw;
+    font-weight: 300;
+    color: rgb(202, 110, 48);
+    padding-left: 4rem;
+    width: 10rem;
+    text-align: center;
+
+}
+
+.seccion1 h1{
+    font-size:3vw;
+    font-weight: 400;
+    padding: 0 6.5rem;
+    margin-top: 1vw;
+}
+
+.btn-index-2{
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 1.5rem;
+    background-color: rgb(11, 87, 149);
+    margin-top: 2rem;
+    margin-left: 4.8rem;
+    padding-top: -10px;
+    padding-left: 12px;
+    border-style: none;
+    border-radius: 15rem;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+.btn-index-2 i{
+    padding: 1px 8px;
+    
+}
+
+.btn-index-2 a{
+    margin:20px 0;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+}
+
+.btn-index-2:hover{
+    box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.61), 0 5px 5px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.franjaNaranja{
+    background-image: url(../imagenes/12.\ franja.svg);
+    background-color: #2CA3AB;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:85px;
+
+}
+
+
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::: BANNER 2 :::::::::::::::::::::::::::::::::::::::: */
+.covid{
+    display: flex;
+    padding: 2rem 2rem;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.830), rgba(255, 255, 255, 0.830)),url(../img/4.\ covid.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.fa-fondo{
+    background-color: rgb(177, 0, 0);
+    border-radius: 50%;
+    padding: 5px 8px;
+    color: white;
+    margin: 2px 1rem;
+}
+
+
+.fa-fondo1{
+    background-color: rgb(177, 0, 0);
+    border-radius: 80%;
+    padding: 18px 12px;
+    color: white;
+    margin: 2px 1rem;
+}
+
+
+
+
+.tabla1 h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(11, 87, 149);
+    width: 25rem;
+}
+
+.tabla1 ul li{
+    margin: 1rem 5rem;
+    font-size: 15px;
+    font-weight: 200;
+    list-style: none;
+    vertical-align: center;
+
+}
+
+        .fa-checkMargin{
+            margin: 0.5rem 1rem;
+            color: rgb(177, 0, 0);
+            
+        }
+
+
+
+.tabla2 h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(11, 87, 149);
+}
+.tabla2 p{
+    font-size: 15px;
+}
+.tabla2 img{
+    width: 30%;
+    display:block;
+    margin:auto;
+}
+
+.tabla2 a{
+    margin-left: 6.5rem;
+}
+
+    .tabla2 a:visited{
+        color: rgb(11, 87, 149);
+    }
+
+    .tabla2 a:link{
+        color: rgb(11, 87, 149);
+    }
+
+.preguntas{
+    background-color: rgb(51, 51, 51);
+    margin-bottom: 1rem;
+}
+
+.preguntas p{
+    background-color: rgb(10, 10, 36);
+    margin-bottom: 0.6rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding: 0.5rem;
+    font-size: 12px;
+    
+}
+
+.preguntas a{
+    text-decoration: none;
+    color: white;
+}
+
+.preguntas a:visited{
+    color: white;;
+}
+
+.preguntas a:link{
+    color: white;
+}
+}
+/* ::::::::::::::::::::::::::::::::::::::::::::::: PIE DE PAGINA :::::::::::::::::::::::::::::::::::::::: */
+.pie-pagina .grupo-2{
+    background-color: #000000e1;
+    padding: 15px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 12px;
+    font-family: Raleway;
+    
+}
+
+body{overflow-x: hidden;}
+
+/*--------------------- | RESOLUCIÓN CELULAR | ---------------------*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (-webkit-min-device-pixel-ratio:0) {
+    .telefono{overflow: hidden;width: 150px;padding-left: 1rem;}
+    .ubicacion{overflow: hidden;width: 160px;padding-left: 1rem;}
+    .seccion{background-size: contain;width: 455px;height: 180px;}
+    .grid-item3{margin-left: 1rem;}
+    .grid-item5 img{object-fit: contain;margin-left: -5rem;margin-top: 0,2rem;}
+    .seccion1 h2{letter-spacing: 0px; font-size: 20px; width: auto;}  
+    .btn-login2{margin-top: 0rem;margin-left: 4rem;}
+    .franjaNaranja{width: 350px;background-size: contain; height: 80px;}
+    .covid{width: 390px;}
+    .preguntas{width: 455px;}
+    .pie-pagina .grupo-2{width: 435px;}
+    .tabla1{margin-left: -1.2rem;}
+    .tabla2{margin-left: -0.6rem;}
+    .tabla2 a{margin-left: 4rem;}
+}
+
+
+/**********RESOLUCIÓN PEQUEÑA**********/
+@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio:0) {
+    .botonSesion{
+        display: flex;
+        grid-area: item4;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .grid-header{
+        grid-template-areas: 
+        "item1 item2"  
+        "item5 item5"  
+        "item3 item4" ;
+    }
+    
+    .btn-login{
+    display: flex;
+    align-items: center;
+    width: 9.5rem;
+    height: 2rem;
+    background-color: rgb(11, 87, 149);
+    margin:  2rem;
+    margin-right: 3rem;
+    padding-top: 1px;
+    padding-left: 12px;
+    border-style: none;
+    border-radius: 15rem;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    }
+    .telefono p{
+        font-size: 14px;
+        
+    }
+    .ubicacion p{  
+        font-size: 14px;
+        width: 20rem;
+    }
+    .seccion{
+        height: 280px;;
+        padding: 3rem ;
+        
+    }
+    
+    .seccion1 h2{
+        letter-spacing: -2px;
+        padding-left: 2rem;
+        width: 24rem;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .seccion1 h1{
+        
+        font-weight: 300;
+        padding: 0 9rem;
+        margin-top: 0.8vw;
+    }
+    
+   
+    .covid{
+        
+        
+        padding: 2rem 7rem;
+    }
+    .tabla1 h1{
+        font-size: 25px;
+    }
+    
+    .tabla1 ul li{
+        font-size: 18px;
+    }
+    .tabla2 h1{
+        font-size: 25px;
+    }
+    .tabla2 p{
+        font-size: 18px;
+    }
+    .btn-index-2{
+        
+        width: 150px;
+        
+        margin-top: 0,2rem;
+        margin-left: 8rem;
+        
+    }
+    .btn-login2 i{
+        padding: 1px 8px;
+        
+    }
+    
+    .btn-login2 a{
+        margin:20px 0;
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+    }
+    .preguntas p{
+        font-size: 14px;
+        
+    }
+}
+
+/**********RESOLUCIÓN MEDIANA**********/
+@media screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio:0) {
+   
+        .telefono p{  
+        font-size: 16px;
+    }
+    .ubicacion p{  
+        font-size: 16px;
+        width: 20rem;
+    }
+    .seccion{
+       
+        height:320px;
+        padding: 6rem 1rem 1rem 5rem;
+        
+    }
+    .seccion1 h1{
+        font-size:50px;
+        font-weight: 400;
+        padding: 0 12rem;
+        margin-top: 2px;
+    }
+       
+        .seccion1 h2{
+            font-size:40px;
+            width: 40rem;
+        } 
+        .btn-login2{
+        
+            width: 150px;
+            
+            margin-top: 2rem;
+            margin-left: 14rem;
+            
+        }
+        
+        
+    
+    .covid{
+        
+        flex-direction: row;
+        
+    }
+    .tabla1{
+        width: 60%;
+    }
+    .tabla2{
+    width: 50%;
+}
+.preguntas p{
+    font-size: 16px;
+    
+}
+}
+
+/**********RESOLUCIÓN GRANDE**********/
+@media screen and (min-width: 1200px) {
+    .grid-header{
+        grid-template-columns: 1.5fr 1fr 1fr ;
+        grid-template-areas: 
+        " item6 item1 item2 item4"  
+        " item3 item5 item5 item5";
+    }
+    
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Assets/css/login.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="/Assets/css/normalize.css">
+    <title> ForjaEmpresas </title>
+
+</head>
+
+<body class="bodylog">
+    <div class="botonubicacion roll-in-blurred-right"><button class="colorbtn"> <a href="/index.html" class="textboton"> <strong>Volver al inicio</strong>
+            </a></button></div>
+
+    <div class="login">
+        <form action="dashboard.html">
+
+            <header class="contigo">
+                <img src="/Assets/imagenes/0. logoforja.png">
+                <div  class="animacionlog"><h6>¡Contigo,siempre!</h6></div>
+                
+            </header>
+
+
+
+            <div class="group">
+                <label for="usuario" class="form-label">Usuario</label>
+                <input type="text" name="user" class="form-input" id="user">
+            </div>
+            <div class="group">
+                <label for="contraseña" class="form-label">Contraseña</label>
+                <input type="password" name="psw" class="form-input" id="psw">
+            </div>
+            <div class="igresob">
+                <a href="#"><p>Olvidaste tu contraseña</p></a>
+                <input id="boton" type="button" value="Ingresar" >
+            </div>
+        </form>
+    </div>
+    <div id="alertUser">
+        <h2>Campo erróneo</h2>
+        <p>Por favor rectificar</p>
+        <button id="btnOk">ok</button>
+    </div>
+<script src="/Assets/login.js"></script>
+</body>
+
+</html>

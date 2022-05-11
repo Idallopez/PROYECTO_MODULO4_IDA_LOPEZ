@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+/*font-family: 'Poppins', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-rufous: #A40101;
+    --color-viridian-Green: #2ca3ab;
+    --color-silver: #c4c4c4;
+    --color-Orange: #f3610e;
+    --color-space-cadet: #1d1b45;
+    --color-bluebutton: rgb(14,88,131);
+    --color-celeste: rgb(111, 215, 246);
+    --color-white:#ffffff ;
+    --color-black:rgb(23, 24, 24);
+    --color-gray: #3f3f41;
+  }
+body {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    background-color: var(--color-space-cadet);
+    width: 100vw;
+    max-width: 100%;
+}
+
+.logo {
+    width: 88%;
+    margin: 1rem 0;
+}
+
+.iconos {
+    width: 12%;
+    margin: 1rem 0;
+
+}
+
+.iconos i {
+    color: black;
+}
+
+.fa-house-user {
+    background-color: var(--color-silver);
+    padding: 0.8rem;
+    border-radius: 50%;
+    border: 3px solid var(--color-viridian-Green);
+}
+
+.fa-power-off {
+    background-color: var(--color-silver);
+    padding: 0.8rem;
+    border-radius: 50%;
+    border: 3px solid rgb(2, 190, 190);
+}
+
+.franjaNaranja {
+    background-image: url(/Assets/imagenes/3.\ franjaninios.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    border-bottom: 5px solid rgb(2, 190, 190);
+}
